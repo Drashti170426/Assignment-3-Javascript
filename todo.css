@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lavender;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Butterfly Kids", cursive;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 55px;
+}
+
+.insert {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-task {
+    padding: 20px 40px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Butterfly Kids", cursive;
+    font-size: 20px;
+    font-weight: 500px;
+    font-style: bold;
+}
+
+#add-task:hover{
+    background-color: black;
+}
+
+#order {
+    list-style: none;
+    padding: 0;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+}
+
+.things-to-do {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.things-to-do input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.things-to-do label {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.things-to-do button{
+    color: white;
+    background-color: purple;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+}
+
+.things-to-do button:hover{
+    background-color: black;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+}
